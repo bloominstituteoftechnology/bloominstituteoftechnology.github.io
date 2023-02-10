@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Web Sprint 1 Challenge</title>
+  <style>
+    .widget {
+      padding: 0 0 0.5rem 0.65rem;
+      margin-bottom: 0.5rem;
+      border: 1px solid black;
+      border-radius: 0.5rem;
+    }
+
+    .widget p {
+      font-size: 0.75rem;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Web Sprint 1 Challenge </h1>
+  <p>❗ See the script tag for instructions on completing your Challenge</p>
+  <!-- widgets start -->
+  <div class="widget">
+    <p>This widget uses the advancedBatteryCare function</p>
+    <input type="range" min="0" max="100" value="50" id="battery">
+    <div id="message">your battery is at 50%</div>
+  </div>
+  <div class="widget">
+    <p>This widget uses the timeConverter function</p>
+    <span id="time">00:00:00</span>
+  </div>
+  <div class="widget">
+    <p>This widget uses the rockPaperScissors function</p>
+    <select id="toolSelectA">
+      <option>rock</option>
+      <option>paper</option>
+      <option>scissors</option>
+    </select>
+    <select id="toolSelectB">
+      <option>rock</option>
+      <option>paper</option>
+      <option>scissors</option>
+    </select>
+    <div id="rps1">select your tools...</div>
+  </div>
+  <div class="widget">
+    <p>This widget uses the rockPaperScissors function</p>
+    <input id="toolInputA" />
+    <input id="toolInputB" />
+    <div id="rps2">type your tools...</div>
+  </div>
+  <!-- widgets end -->
+  <script>
+    function concatenator(e, t) { return void 0 === e || void 0 === t ? "a and b must be defined" : typeof e != typeof t ? "a and b must be of the same type" : "string" != typeof e && "number" != typeof e ? "a and b must be numbers or strings" : e + t } function triangleAnalyzer(e, t, r) { return "number" != typeof e || "number" != typeof t || "number" != typeof r ? "all angles must be numbers" : e <= 0 || t <= 0 || r <= 0 ? "all angles must be greater than zero" : e + t + r !== 180 ? "angles must total 180" : 90 === e || 90 === t || 90 === r ? "this is a right triangle" : e > 90 || t > 90 || r > 90 ? "this is an obtuse triangle" : "this is an acute triangle" } function falsinessDetector(e, t, r, a, s) { return e && t && r && a && s ? "all values truthy" : e || t || t || a || s ? "some values truthy and some falsy" : "all values falsy" } function advancedBatteryCare(e) { return 0 === e ? "congrats, battery dead" : 100 === e ? "congrats, you cooked your battery" : e < 20 ? "please connect charger" : e > 80 ? "please unplug charger" : `your battery is at ${e}%` } function timeConverter(e) { let t = Math.floor(e / 3600), r = e % 3600, a = Math.floor(r / 60), s = r % 60; return t < 10 && (t = "0" + t), a < 10 && (a = "0" + a), s < 10 && (s = "0" + s), `${t}:${a}:${s}` } function rockPaperScissors(e, t) { let r = "rock" !== e && "paper" !== e && "scissors" !== e, a = "rock" !== t && "paper" !== t && "scissors" !== t; return r && a ? "both tools invalid" : r ? `${e} not a valid tool` : a ? `${t} not a valid tool` : e === t ? `${e} VS. ${t} is a draw!` : "rock" === e && "scissors" === t || "paper" === e && "rock" === t || "scissors" === e && "paper" === t ? `${e} beats ${t}!` : `${t} beats ${e}!` }
+  </script>
+</body>
+
+</html>
