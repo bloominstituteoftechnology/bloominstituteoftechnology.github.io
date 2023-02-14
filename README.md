@@ -2,7 +2,9 @@
 
 This repo is for static websites published using GitHub Pages.
 
-Need a site? Create a new folder for your assets, and it will become live at `https://bloominstituteoftechnology.github.io/<folder name>`
+Need a site? Create a new folder for your assets, and it will become live at:
+
+```https://bloominstituteoftechnology.github.io/<folder name>```
 
 ## Published Pages
 
