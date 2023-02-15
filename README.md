@@ -1,8 +1,10 @@
-# Readme
+# About
 
-This repo is for static websites published using GitHub Pages.
+This repo is for Bloomtech staff to esily publish static websites using GitHub Pages.
 
-Need a site? Create a new folder for your assets, and it will become live at:
+## Need a site?
+
+Create a new folder holding your HTML/CSS/JS files, push to main and the site will become live at:
 
 ```https://bloominstituteoftechnology.github.io/<folder name>```
 
