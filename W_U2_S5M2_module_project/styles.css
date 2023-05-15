@@ -1,0 +1,79 @@
+/* ❗ DO NOT CHANGE THIS FILE */
+/* ❗ DO NOT CHANGE THIS FILE */
+/* ❗ DO NOT CHANGE THIS FILE */
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./TitilliumWeb.ttf');
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  border: 1rem solid #ff4b00;
+}
+
+body,
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1.2rem;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+header .info {
+  font-style: italic;
+}
+
+section {
+  width: 100%;
+  overflow-y: auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+footer {
+  padding: 1rem;
+}
+
+#grid {
+  padding: 3px;
+  margin: 2rem;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+.square.targeted {
+  border-color: white;
+  box-shadow: rgb(255, 75, 0) 0px 0px 6px 3px, rgb(255, 75, 0) 0px 0px 6px 3px inset;
+}
+
+.row {
+  display: flex;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;
+  cursor: pointer;
+}
