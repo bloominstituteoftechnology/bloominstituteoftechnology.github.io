@@ -1,6 +1,6 @@
 # About
 
-This repo is for Bloomtech staff to esily publish static websites using GitHub Pages.
+This repo is for Bloomtech staff to easily publish static websites using GitHub Pages.
 
 ## Need a site?
 
