@@ -1,0 +1,77 @@
+<!--
+❗ DO NOT CHANGE THIS FILE
+❗ DO NOT CHANGE THIS FILE
+❗ DO NOT CHANGE THIS FILE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sprint 5 Module 4 Project</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Sprint 5 Module 4 Project</h1>
+    <h2>Weather API</h2>
+    <p class="info"></p>
+  </header>
+  <section>
+    <select id="citySelect">
+      <option selected disabled hidden>Select a city...</option>
+      <option>San Francisco</option>
+      <option>New York</option>
+      <option>Detroit</option>
+      <option>Honolulu</option>
+    </select>
+    <div id="weatherWidget">
+      <div id="today" class="card col">
+        <div id="apparentTemp" class="col">
+          <div>Feels like</div>
+          <div>99°</div>
+        </div>
+        <div class="row">
+          <div id="todayDescription">🌤</div>
+          <div id="todayStats" class="col">
+            <div>99°/99°</div>
+            <div>Precipitation: 99%</div>
+            <div>Humidity: 99%</div>
+            <div>Wind: 9m/s</div>
+          </div>
+        </div>
+      </div>
+      <div id="forecast" class="row">
+        <div class="next-day card col">
+          <div>Monday</div>
+          <div>🌤</div>
+          <div>99°/99°</div>
+          <div>Precipitation 99%</div>
+        </div>
+        <div class="next-day card col">
+          <div>Tuesday</div>
+          <div>🌤</div>
+          <div>99°/99°</div>
+          <div>Precipitation 99%</div>
+        </div>
+        <div class="next-day card col">
+          <div>Wednesday</div>
+          <div>🌤</div>
+          <div>99°/99°</div>
+          <div>Precipitation 99%</div>
+        </div>
+      </div>
+      <div id="location" class="col">
+        <div>Detroit</div>
+        <div>United States</div>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+</body>
+
+</html>

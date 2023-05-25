@@ -1,0 +1,130 @@
+/* ❗ DO NOT CHANGE THIS FILE */
+/* ❗ DO NOT CHANGE THIS FILE */
+/* ❗ DO NOT CHANGE THIS FILE */
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./TitilliumWeb.ttf');
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  border: 1rem solid #ff4b00;
+}
+
+body,
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 1.2rem;
+}
+
+h4 {
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+@keyframes color-change {
+  100% { color: #ff4b00; }
+}
+
+header .info {
+  font-size: 1.3rem;
+  font-style: italic;
+  animation: color-change .5s infinite alternate;
+}
+
+section {
+  width: 100%;
+  overflow-y: auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#weatherWidget {
+  margin-top: 1rem;
+}
+
+#forecast {
+  align-self: flex-start;
+}
+
+.card {
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 1rem 0 1rem 0;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+#apparentTemp {
+  margin-bottom: -2rem;
+}
+
+#apparentTemp>div:nth-child(1) {
+  margin-bottom: -2rem;
+}
+
+#apparentTemp>div:nth-child(2) {
+  font-size: 6em;
+}
+
+#todayDescription {
+  font-size: 6em;
+  margin-right: 1.2rem;
+}
+
+#todayStats>div:first-child {
+  font-size: 2em;
+}
+
+#todayStats {
+  align-items: flex-start;
+  font-size: 0.9rem;
+}
+
+.next-day>div:nth-child(2) {
+  font-size: 4em;
+  margin-top: -0.8rem;
+  margin-bottom: -0.8rem;
+}
+
+.next-day>div:nth-child(4) {
+  font-size: 0.7em;
+}
+
+#location>div:nth-child(1) {
+  margin-top: 1rem;
+  font-size: 1.75em;
+}
+
+#location>div:nth-child(2) {
+  font-size: 1.2em;
+}
