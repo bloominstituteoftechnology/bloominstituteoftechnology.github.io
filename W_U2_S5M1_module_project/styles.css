@@ -79,6 +79,7 @@ section {
 .widget:focus h3 {
   transition: font-size 0.1s ease-in-out;
   font-size: 1.5em;
+  color: #ff4b00;
 }
 
 .widget:last-child {
