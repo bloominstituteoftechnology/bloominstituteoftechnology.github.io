@@ -10,11 +10,12 @@ Create a new folder holding your HTML/CSS/JS files, push to main and the site wi
 
 ## Published Pages
 
-- [Web Unit 1 Sprint 1 Challenge](https://bloominstituteoftechnology.github.io/W_U1_S1_sprint_challenge/)
-- [Web Unit 1 Sprint 1 Challenge V2](https://bloominstituteoftechnology.github.io/W_U1_S1_sprint_challenge_v2/)
-- [Web Unit 1 Sprint 2 Challenge](https://bloominstituteoftechnology.github.io/W_U1_S2_sprint_challenge/)
-- [Web Unit 2 Sprint 6 Challenge](https://bloominstituteoftechnology.github.io/W_U2_S6_sprint_challenge/)
-- [Web Unit 2 Module 1 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M1_module_project/)
-- [Web Unit 2 Module 2 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M2_module_project/)
-- [Web Unit 2 Module 3 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M3_module_project/)
-- [W_S7M2_Project](https://bloominstituteoftechnology.github.io/W_S7M2_Project/)
+- [Web Sprint 1 Challenge](https://bloominstituteoftechnology.github.io/W_U1_S1_sprint_challenge/)
+- [Web Sprint 1 Challenge V2](https://bloominstituteoftechnology.github.io/W_U1_S1_sprint_challenge_v2/)
+- [Web Sprint 2 Challenge](https://bloominstituteoftechnology.github.io/W_U1_S2_sprint_challenge/)
+- [Web Sprint 6 Challenge](https://bloominstituteoftechnology.github.io/W_U2_S6_sprint_challenge/)
+- [Web Sprint 5 Module 1 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M1_module_project/)
+- [Web Sprint 5 Module 2 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M2_module_project/)
+- [Web Sprint 5 Module 3 Project](https://bloominstituteoftechnology.github.io/W_U2_S5M3_module_project/)
+- [Web Sprint 7 Module 2 Project](https://bloominstituteoftechnology.github.io/W_S7M2_Project/)
+- [Web Sprint 7 Module 3 Project](https://bloominstituteoftechnology.github.io/W_S7M3_Project/)
