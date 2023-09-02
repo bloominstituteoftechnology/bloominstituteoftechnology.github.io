@@ -1,6 +1,8 @@
 # About
 
-This repo is for Bloomtech staff to easily publish static websites using GitHub Pages.
+This repo is for Bloom staff to easily publish static websites using GitHub Pages.
+
+<https://github.com/bloominstituteoftechnology/bloominstituteoftechnology.github.io>
 
 ## Need a site?
 
