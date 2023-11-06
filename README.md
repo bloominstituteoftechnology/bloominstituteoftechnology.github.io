@@ -22,3 +22,4 @@ Create a new folder holding your HTML/CSS/JS files, push to main and the site wi
 - [Web Sprint 7 Module 2 Project](https://bloominstituteoftechnology.github.io/W_S7M2_Project/)
 - [Web Sprint 7 Module 3 Project](https://bloominstituteoftechnology.github.io/W_S7M3_Project/)
 - [Web Sprint 7 Challenge](https://bloominstituteoftechnology.github.io/W_S7_Challenge/)
+- [Web Sprint 9 Module 2 Project](https://bloominstituteoftechnology.github.io/W_S9M2_Project/)

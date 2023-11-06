@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="./bloom.ico">
+  <title>Canvas Drawing Board</title>
+  <script defer="defer" src="./index.js"></script>
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Canvas Drawing Board Vanilla JS</h1>
+  </header>
+
+  <p>Draw inside the canvas with your mouse!</p>
+
+  <canvas width='500' height='500'></canvas>
+
+  <script>
+    const footer = document.createElement('footer')
+    const currentYear = (new Date).getFullYear()
+    footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`
+    document.body.insertAdjacentElement('beforeend', footer)
+  </script>
+</body>
+
+</html>
