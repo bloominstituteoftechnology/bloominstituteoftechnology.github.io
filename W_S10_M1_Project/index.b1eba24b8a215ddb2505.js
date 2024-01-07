@@ -724,7 +724,7 @@ function App() {
   };
   return /*#__PURE__*/react.createElement("div", {
     id: "mp"
-  }, /*#__PURE__*/react.createElement("h2", null, "Module Project"), /*#__PURE__*/react.createElement(Quotes, {
+  }, /*#__PURE__*/react.createElement("h2", null, "Module Project PROTOTYPE"), /*#__PURE__*/react.createElement(Quotes, {
     quotes: state.quotes,
     highlightedQuote: state.highlightedQuote,
     displayAllQuotes: state.displayAllQuotes,
