@@ -25,3 +25,4 @@ Create a new folder holding your HTML/CSS/JS files, push to main and the site wi
 - [Web Sprint 9 Module 2 Project](https://bloominstituteoftechnology.github.io/W_S9M2_Project/)
 - [Web Sprint 10 Module 1 Project](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/)
 - [Grading Using Actions](https://bloominstituteoftechnology.github.io/grading_using_actions/)
+- [Web Sprint 11 Fetch Module Project](https://bloominstituteoftechnology.github.io/W_S11_Fetch_Project/)

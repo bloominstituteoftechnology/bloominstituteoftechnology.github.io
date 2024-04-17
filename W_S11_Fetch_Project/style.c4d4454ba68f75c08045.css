@@ -1,0 +1,152 @@
+/* RESET BY https://www.joshwcomeau.com/css/custom-css-reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url(./3811e415177ca094c253.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  border: 1rem solid #ff4b00;
+}
+
+#root,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: #93005a;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin-left: 6px;
+}
+
+a.active {
+  color: #ff4b00;
+}
+
+#root {
+  width: 100%;
+  overflow-y: auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer>a {
+  font-size: 0.85em;
+  color: #ff4b00;
+}
+
+input, select {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 200px;
+}
+
+input[type=checkbox] {
+  display: inline;
+  width: initial;
+}
+
+form {
+  margin-top: 1rem;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+li button {
+  margin-left: 6px;
+}
+
+form button {
+  margin-right: 6px;
+}
+
